@@ -24,9 +24,9 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ### Proses :
 
-$mkdir gilang
+$ mkdir gilang
 
-$cd gilang
+$ cd gilang
 
 $ docker build -t gilang:v1
 
@@ -36,7 +36,7 @@ $ docker build -t gilang:v1
 
 $ docker run -d -p 80:80 gilang:v1
 
-$docker run -p 8080:80 --name gilang-1 gilang
+$ docker run -p 8080:80 --name gilang-1 gilang
 
 
 
