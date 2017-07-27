@@ -24,9 +24,9 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ### Proses :
 
-$mkdir tccl
+$mkdir gilang
 
-$cd tccl
+$cd gilang
 
 $ docker build -t gilang:v1
 
