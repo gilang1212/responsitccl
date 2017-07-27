@@ -8,6 +8,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 penjelasan code pada Dockerfile
+
 ● FROM : mendefenisikan base image Docker yang digunakan, dalam contoh ini menggunakan nginx:alpine 
 
 ● COPY melakukan proses duplikasi file index.html pada direktori imageku ke dalam root direktori nginx di dalam container
@@ -16,9 +17,15 @@ penjelasan code pada Dockerfile
 
 ● CMD : Eksekusi perintah command pada lingkungan container 
 
+Proses:
+
 $mkdir tccl
+
 $cd tccl
-$ docker build -t gilang:v1 
+
+$ docker build -t gilang:v1
+
+
 $ docker run -d -p 80:80 gilang:v1
 
 
