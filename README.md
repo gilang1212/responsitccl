@@ -1,13 +1,17 @@
 # responsitccl
 
 
-Create Dockerfile
+### Create Dockerfile :
+
 FROM nginx:alpine
+
 COPY index.html /usr/share/nginx/html/index.html
+
 EXPOSE 80
+
 CMD ["nginx", "-g", "daemon off;"]
 
-penjelasan code pada Dockerfile
+### penjelasan code pada Dockerfile :
 
 ● FROM : mendefenisikan base image Docker yang digunakan, dalam contoh ini menggunakan nginx:alpine 
 
@@ -17,7 +21,7 @@ penjelasan code pada Dockerfile
 
 ● CMD : Eksekusi perintah command pada lingkungan container 
 
-Proses:
+### Proses :
 
 $mkdir tccl
 
