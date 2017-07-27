@@ -1,6 +1,7 @@
 # responsitccl
 
 ![2.PNG](https://github.com/gilang1212/gilang/blob/master/2.png)
+
 ### Create Dockerfile :
 
 FROM nginx:alpine
@@ -28,7 +29,10 @@ $mkdir tccl
 $cd tccl
 
 $ docker build -t gilang:v1
+
 ![33.PNG](https://github.com/gilang1212/gilang/blob/master/33.png)
+
+![11.PNG](https://github.com/gilang1212/gilang/blob/master/11.png)
 
 $ docker run -d -p 80:80 gilang:v1
 
